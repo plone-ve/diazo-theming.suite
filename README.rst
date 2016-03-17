@@ -1,5 +1,5 @@
 Diazo theming suite
-====================
+===================
 
 The idea with this buildout configuration is show how install
 a Plone latest version, for integrate with Diazo Theming for
@@ -26,51 +26,10 @@ To get a basic development installation running follow the steps below: ::
     $ python bootstrap.py
     $ ./bin/buildout -vvvvvvvvN
 
-How to use diazo
------------------
-    
-For more options just run::
+How use this project
+====================
 
-    $ ./bin/diazorun --help
-
-TODO
-
-How to use thememapper
------------------------
-
-After the installation you will be able to run thememapper.core through the commandline::
-
-    $ ./bin/thememapper --static_path static/
-
-Thememapper.core normally listens to port 5001. You can force it to listen on another port by running::
-    
-    $ ./bin/thememapper --port <port>
-    
-For more options just run::
-
-    $ ./bin/thememapper --help
-
-How to use Wordpress
----------------------
-
-For access to Wordpress administration panel use the follow url address: 
-
-TODO
-
-How to use Joomla! 
--------------------
-
-For access to Joomla! administration panel use the follow url address:
-
-TODO
-
-How to use Drupal
-------------------
-
-For access to Drupal administration panel use the follow url address:
-
-TODO
-
+Please check the docs directory for more details about this project.
 
 Support
 =======

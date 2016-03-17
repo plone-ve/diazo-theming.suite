@@ -40,9 +40,9 @@ How to use thememapper
 
 After the installation you will be able to run thememapper.core through the commandline::
 
-    $ ./bin/thememapper
+    $ ./bin/thememapper --static_path static/
 
-Thememapper.core normally listens to port 5000. You can force it to listen on another port by running::
+Thememapper.core normally listens to port 5001. You can force it to listen on another port by running::
     
     $ ./bin/thememapper --port <port>
     

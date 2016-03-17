@@ -1,0 +1,17 @@
+h1 {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.headerlink {
+    color: #DDDDDD;
+    font-size: 80%;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+.align-right {
+    float: right;
+    margin: 0 10px;
+    border: dotted #ddd 1px;
+}

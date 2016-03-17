@@ -24,14 +24,14 @@ To get a basic development installation running follow the steps below: ::
     $ git clone https://github.com/plone-ve/diazo-theming.suite.git
     $ cd diazo-theming.suite
     $ python bootstrap.py
-    $ bin/buildout -vvvvvvvvN
+    $ ./bin/buildout -vvvvvvvvN
 
 How to use diazo
 -----------------
     
 For more options just run::
 
-    $ bin/diazorun --help
+    $ ./bin/diazorun --help
 
 TODO
 
@@ -40,15 +40,15 @@ How to use thememapper
 
 After the installation you will be able to run thememapper.core through the commandline::
 
-    $ thememapper
+    $ ./bin/thememapper
 
 Thememapper.core normally listens to port 5000. You can force it to listen on another port by running::
     
-    $ thememapper -p <port>
+    $ ./bin/thememapper --port <port>
     
 For more options just run::
 
-    $ thememapper --help
+    $ ./bin/thememapper --help
 
 How to use Wordpress
 ---------------------
@@ -73,7 +73,7 @@ TODO
 
 
 Support
-========
+=======
 
 If you run into any issues trying to get this to work, please, add an
 issue to the `tracker here`_ on this github project.

@@ -22,9 +22,29 @@ rule files, Diazo makes common cases simple and complex requirements possible.
 
 How to use diazo
 ================
-    
+
+TODO
+
+diazorun
+--------
+
 For more options just run::
 
     $ ./bin/diazorun --help
 
+More information http://docs.diazo.org/en/latest/installation.html
+
+diazocompiler
+-------------
+
+the Diazo compiler is via the diazocompiler command line script which is installed with the diazo egg. To see its help output, do:
+
+More information http://docs.diazo.org/en/latest/compiler.html
+
+
+diazopreprocessor
+-----------------
+
 TODO
+
+More information http://docs.diazo.org/en/latest/

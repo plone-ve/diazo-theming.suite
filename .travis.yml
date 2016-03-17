@@ -1,0 +1,22 @@
+language: python
+python: '2.7'
+sudo: false
+cache:
+  pip: true
+  directories:
+    - components
+    - $HOME/buildout-cache
+
+before_install:
+  - mkdir -p $HOME/buildout-cache/{eggs,downloads}
+  - mkdir $HOME/.buildout
+  - echo "[buildout]" > $HOME/.buildout/default.cfg
+  - echo "download-cache = $HOME/buildout-cache/downloads" >> $HOME/.buildout/default.cfg
+  - echo "eggs-directory = $HOME/buildout-cache/eggs" >> $HOME/.buildout/default.cfg
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
+install:
+  - pip install zc.buildout
+  - buildout -N -t 3 annotate
+script:
+  - buildout -N -t 3

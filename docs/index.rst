@@ -15,6 +15,7 @@ Contents:
    diazo
    thememapper
    django
+   composer
    drupal
    joomla
    wordpress

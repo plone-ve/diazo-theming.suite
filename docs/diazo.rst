@@ -23,28 +23,44 @@ rule files, Diazo makes common cases simple and complex requirements possible.
 How to use diazo
 ================
 
-TODO
+The Diazo installation generate three scritps into
+``bin`` directory from root folder project  which
+are installed with the ``diazo`` egg.
 
 diazorun
 --------
 
-For more options just run::
+The Diazo runserver is via the ``diazorun`` command
+line script. To see its help output, do:
+
+::
 
     $ ./bin/diazorun --help
 
-More information http://docs.diazo.org/en/latest/installation.html
+.. tip::
+    More information visit: http://docs.diazo.org/en/latest/installation.html
 
 diazocompiler
 -------------
 
-the Diazo compiler is via the diazocompiler command line script which is installed with the diazo egg. To see its help output, do:
+The Diazo compiler is via the ``diazocompiler`` command
+line script. To see its help output, do:
 
-More information http://docs.diazo.org/en/latest/compiler.html
+    $ ./bin/diazocompiler --help
+
+.. tip::
+    More information visit: http://docs.diazo.org/en/latest/compiler.html
 
 
 diazopreprocessor
 -----------------
 
-TODO
+The Preprocess RULES for Diazo is via the ``diazopreprocessor`` command
+line script. To see its help output, do:
 
-More information http://docs.diazo.org/en/latest/
+For more options just run::
+
+    $ ./bin/diazopreprocessor --help
+
+.. tip::
+    More information visit: http://docs.diazo.org/en/latest/

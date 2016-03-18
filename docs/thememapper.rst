@@ -15,14 +15,16 @@ thememapper.core
 If you want to map your themes by pointing and clicking you can use ``thememapper.core``. ``thememapper.core`` Is, like ``thememapper.diazo``, a stand-alone application and
 does not require ``thememapper.diazo`` to run. For more information please refer to the readme file of ``thememapper.core``.
 
-**Source code:** https://github.com/C4RoCKeT/thememapper.core
+.. tip::
+    More information visit: https://github.com/C4RoCKeT/thememapper.core
 
 thememapper.diazo
 -----------------
 
 This is a stand-alone application that runs a developement Diazo server. This means it is not fit for production!. For more information please refer to the readme file of ``thememapper.diazo``.
 
-**Source code:** https://github.com/C4RoCKeT/thememapper.diazo
+.. tip::
+    More information visit: https://github.com/C4RoCKeT/thememapper.diazo
 
 How to use thememapper
 ======================

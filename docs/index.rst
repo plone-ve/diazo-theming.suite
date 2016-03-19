@@ -14,11 +14,12 @@ Contents:
    introduction
    diazo
    thememapper
-   django
    composer
+   wordpress
    drupal
    joomla
-   wordpress
+   django
+   plone
 
 
 

@@ -39,7 +39,6 @@ To get a basic development installation running follow the steps below: ::
     $ cd diazo-theming.suite
     $ python bootstrap.py
     $ ./bin/buildout -vvvvvvvvN
-    $ ./bin/buildout install diazotools
     $ ./bin/buildout install composer-run
 
 How use this project

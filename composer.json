@@ -3,9 +3,17 @@
         {
             "type":"composer",
             "url":"https://wpackagist.org"
+        },
+        {
+          "type": "composer",
+          "url": "https://packagist.drupal-composer.org"
         }
     ],
+    "config": {
+        "secure-http": false
+    },
     "require": {
-        "johnpbloch/wordpress": "4.4.2"
+        "johnpbloch/wordpress": "4.4.2",
+        "drupal/drupal": "8.1.0-beta1"
     }
 }

@@ -24,11 +24,14 @@ build/
 develop-eggs/
 dist/
 downloads/
+drupal/
 eggs/
 fake-eggs/
 parts/
 src/
 var/
+vendor/
+wordpress/
 
 
 
